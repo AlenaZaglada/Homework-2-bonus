@@ -16,7 +16,9 @@ public class Main {
 
         if (amount > 1000) {
             bonus = amount / 100;
-        } else {bonus = 0;}
+        } else {
+            bonus = 0;
+        }
 
         int total = amount + deposit + bonus;
 
